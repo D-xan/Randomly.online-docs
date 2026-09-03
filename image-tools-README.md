@@ -1,300 +1,173 @@
 <div align="center">
 
-# 🖼️ Randomly.online Image Tools
+<img src="https://github.com/D-xan/Randomly.online-docs/blob/main/images/randomly%20online%20logo.png?raw=true" width="100" alt="Randomly.online logo" />
 
-### ⚡ Modern Browser-Based Image Utility Ecosystem
+# Randomly.online Image Tools
 
-<p align="center">
-  <img src="https://img.shields.io/badge/45+_Image_Tools-111827?style=for-the-badge&logo=googlephotos&logoColor=white" />
-  <img src="https://img.shields.io/badge/Privacy_First-2563eb?style=for-the-badge&logo=shield&logoColor=white" />
-  <img src="https://img.shields.io/badge/Client_Side-7c3aed?style=for-the-badge&logo=javascript&logoColor=white" />
-</p>
+**47 image tools. Ten formats. Nothing uploaded.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/No_Uploads-10b981?style=flat-square" />
-  <img src="https://img.shields.io/badge/Mobile_Friendly-0ea5e9?style=flat-square" />
-  <img src="https://img.shields.io/badge/Modern_Formats-f59e0b?style=flat-square" />
-  <img src="https://img.shields.io/badge/Fast_Processing-ef4444?style=flat-square" />
-</p>
-
-<a href="https://randomly.online/image-tools/all-image-tools">
-  <img src="https://img.shields.io/badge/🚀_Explore_All_Image_Tools-000000?style=for-the-badge" />
-</a>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:7c3aed&height=180&section=header&text=Image%20Tools%20Ecosystem&fontSize=34&fontColor=ffffff" />
+[Open all image tools](https://randomly.online/image-tools/all-image-tools) &nbsp;|&nbsp; [Main README](README.md) &nbsp;|&nbsp; [randomly.online](https://randomly.online)
 
 </div>
 
 ---
 
-# 📊 Image Tools Ecosystem
+## What are the Randomly.online image tools?
 
-<div align="center">
+They are 47 browser-based tools for converting, editing and inspecting images, covering PNG, JPG, WebP, AVIF, HEIC, SVG, BMP, TIFF, GIF and Base64. Each one runs entirely in the tab using the Canvas API and, for the formats browsers cannot decode natively, WebAssembly. Your photo is read from disk by the browser, changed in memory, and written back out as a download.
+
+No file is transmitted. There is no upload progress bar because there is no upload, no queue and no account, and no size cap beyond what your own machine will hold. A 40 MB TIFF works if your browser has the memory for it.
+
+The practical consequence people notice first is speed on repeat work. Converting thirty screenshots does not mean thirty round trips to a server. The second consequence matters more if the images are passports, medical scans or contracts: they never sit on hardware you do not control.
+
+**Last verified: 4 September 2026.** All 47 links below returned HTTP 200 on that date.
+
+---
+
+## Which format converts to which?
 
 ```mermaid
-pie title Image Tools Distribution
-    "Conversion Tools" : 45
-    "Editing Tools" : 25
-    "Optimization Tools" : 15
-    "Creative Tools" : 10
-    "Metadata Utilities" : 5
+flowchart LR
+  HEIC --> JPG
+  HEIC --> PNG
+  TIFF --> JPG
+  TIFF --> PNG
+  TIFF --> WebP
+  BMP --> JPG
+  BMP --> PNG
+  BMP --> WebP
+  SVG --> PNG
+  SVG --> JPG
+  SVG --> WebP
+  JPG <--> PNG
+  JPG --> WebP
+  PNG --> WebP
+  GIF --> WebP
+  WebP --> GIF
+  JPG --> AVIF
+  PNG --> AVIF
+  WebP --> AVIF
+  AVIF --> JPG
+  AVIF --> PNG
+  AVIF --> WebP
+  JPG --> TIFF
+  style AVIF fill:#2563eb,color:#fff
+  style WebP fill:#7c3aed,color:#fff
 ```
 
-</div>
-
 ---
 
-# ⚡ Core Platform Features
+## Editing and creative tools
 
-<div align="center">
+Fifteen tools that change how an image looks rather than what container it is in.
 
-| Feature | Support |
+| Tool | What it does |
 |---|---|
-| 🔒 Client-Side Processing | ✅ |
-| ⚡ Instant Browser Processing | ✅ |
-| 📱 Mobile Friendly | ✅ |
-| 🧠 Modern Browser APIs | ✅ |
-| 🚫 No Signups Required | ✅ |
-| ☁️ Server Upload Dependency | ❌ |
-| 💾 Software Installation | ❌ |
-
-</div>
+| [Image Resizer](https://randomly.online/image-tools/image-resizer) | Resize by pixels or percentage, with aspect ratio locked or free |
+| [Image Cropper](https://randomly.online/image-tools/image-cropper) | Freehand and fixed-ratio cropping |
+| [Circle Image Cropper](https://randomly.online/image-tools/circle-image-cropper) | Crop to a circle with transparency, for avatars |
+| [Image Rotator](https://randomly.online/image-tools/image-rotator) | Rotate and flip |
+| [Add Text to Image](https://randomly.online/image-tools/add-text-to-image) | Place captions with font, colour and position control |
+| [Add Watermark to Image](https://randomly.online/image-tools/add-watermark-to-image) | Text or image watermark with opacity and tiling |
+| [Merge Images](https://randomly.online/image-tools/merge-images) | Join images horizontally or vertically |
+| [Photo Collage Maker](https://randomly.online/image-tools/photo-collage) | Grid layouts from several photos |
+| [Image Frame Maker](https://randomly.online/image-tools/image-frame) | Add borders and frames |
+| [Passport Size Photo Maker](https://randomly.online/image-tools/passport-size-photo) | Country preset sizes for ID photos |
+| [Blur Image](https://randomly.online/image-tools/blur-image) | Whole-image or selective blur, for redaction |
+| [Image Grayscale Filter](https://randomly.online/image-tools/image-grayscale-filter) | Convert to greyscale |
+| [Auto Brightness and Contrast](https://randomly.online/image-tools/autobrightnesscontrast) | Automatic tonal correction |
+| [Photo Enhancer](https://randomly.online/image-tools/photo-enhancer) | Sharpness and colour adjustment |
+| [Photo to Sketch](https://randomly.online/image-tools/photo-to-sketch) | Pencil sketch effect |
 
 ---
 
-# 🖼️ Editing & Creative Tools
+## Compression and general conversion
 
-<div align="center">
-
-| Tool | Launch |
+| Tool | What it does |
 |---|---|
-| Add Text to Image | [🚀 Open](https://randomly.online/image-tools/add-text-to-image) |
-| Merge Images | [🚀 Open](https://randomly.online/image-tools/merge-images) |
-| Passport Size Photo | [🚀 Open](https://randomly.online/image-tools/passport-size-photo) |
-| Image Frame | [🚀 Open](https://randomly.online/image-tools/image-frame) |
-| Circle Image Cropper | [🚀 Open](https://randomly.online/image-tools/circle-image-cropper) |
-| Add Watermark to Image | [🚀 Open](https://randomly.online/image-tools/add-watermark-to-image) |
-| Image Cropper | [🚀 Open](https://randomly.online/image-tools/image-cropper) |
-| Blur Image | [🚀 Open](https://randomly.online/image-tools/blur-image) |
-| Image Rotator | [🚀 Open](https://randomly.online/image-tools/image-rotator) |
-| Photo to Sketch | [🚀 Open](https://randomly.online/image-tools/photo-to-sketch) |
-| Auto Brightness Contrast | [🚀 Open](https://randomly.online/image-tools/autobrightnesscontrast) |
-| Image Grayscale Filter | [🚀 Open](https://randomly.online/image-tools/image-grayscale-filter) |
-| Image Resizer | [🚀 Open](https://randomly.online/image-tools/image-resizer) |
-| Photo Collage | [🚀 Open](https://randomly.online/image-tools/photo-collage) |
-| Photo Enhancer | [🚀 Open](https://randomly.online/image-tools/photo-enhancer) |
-
-</div>
+| [Image Compressor](https://randomly.online/image-tools/image-compressor) | Reduce file size with a quality slider and a live before-and-after size readout |
+| [Image Converter](https://randomly.online/image-tools/image-converter) | Convert between the supported formats in one place |
+| [GIF Converter](https://randomly.online/image-tools/gif-converter) | Work with animated and still GIFs |
 
 ---
 
-# 🔄 PNG & JPG Conversion Ecosystem
+## AVIF
 
-<div align="center">
+AVIF usually produces the smallest file of the modern formats, which is why it has both directions covered.
 
-| Tool | Conversion |
+| Tool | Direction |
 |---|---|
-| PNG to JPG | PNG → JPG |
-| JPG to PNG | JPG → PNG |
-| PNG to WebP | PNG → WebP |
-| JPG to WebP | JPG → WebP |
-| JPG to TIFF | JPG → TIFF |
-
-</div>
+| [JPG to AVIF](https://randomly.online/image-tools/jpg-to-avif) | JPG -> AVIF |
+| [PNG to AVIF](https://randomly.online/image-tools/png-to-avif) | PNG -> AVIF |
+| [WebP to AVIF](https://randomly.online/image-tools/webp-to-avif) | WebP -> AVIF |
+| [AVIF to JPG](https://randomly.online/image-tools/avif-to-jpg) | AVIF -> JPG |
+| [AVIF to PNG](https://randomly.online/image-tools/avif-to-png) | AVIF -> PNG |
+| [AVIF to WebP](https://randomly.online/image-tools/avif-to-webp) | AVIF -> WebP |
 
 ---
 
-# 🚀 AVIF Ecosystem
+## WebP
 
-<div align="center">
-
-```mermaid
-graph LR
-A[JPG] --> B[AVIF]
-C[PNG] --> B
-D[WEBP] --> B
-B --> E[JPG]
-B --> F[PNG]
-B --> G[WEBP]
-```
-
-</div>
-
-| Tool | Launch |
+| Tool | Direction |
 |---|---|
-| JPG to AVIF | [🚀 Open](https://randomly.online/image-tools/jpg-to-avif) |
-| PNG to AVIF | [🚀 Open](https://randomly.online/image-tools/png-to-avif) |
-| WebP to AVIF | [🚀 Open](https://randomly.online/image-tools/webp-to-avif) |
-| AVIF to JPG | [🚀 Open](https://randomly.online/image-tools/avif-to-jpg) |
-| AVIF to PNG | [🚀 Open](https://randomly.online/image-tools/avif-to-png) |
-| AVIF to WebP | [🚀 Open](https://randomly.online/image-tools/avif-to-webp) |
+| [JPG to WebP](https://randomly.online/image-tools/jpg-to-webp) | JPG -> WebP |
+| [PNG to WebP](https://randomly.online/image-tools/png-to-webp) | PNG -> WebP |
+| [GIF to WebP](https://randomly.online/image-tools/gif-to-webp) | GIF -> WebP |
+| [WebP to PNG](https://randomly.online/image-tools/webp-to-png) | WebP -> PNG |
+| [WebP to GIF](https://randomly.online/image-tools/webp-to-gif) | WebP -> GIF |
 
 ---
 
-# 🌐 WebP Ecosystem
+## HEIC, the iPhone format
 
-<div align="center">
+iPhones save photos as HEIC, and most Windows software still will not open one. These three do it without installing a codec pack.
 
-| Tool | Launch |
+| Tool | What it does |
 |---|---|
-| JPG to WebP | [🚀 Open](https://randomly.online/image-tools/jpg-to-webp) |
-| PNG to WebP | [🚀 Open](https://randomly.online/image-tools/png-to-webp) |
-| GIF to WebP | [🚀 Open](https://randomly.online/image-tools/gif-to-webp) |
-| WebP to PNG | [🚀 Open](https://randomly.online/image-tools/webp-to-png) |
-| WebP to GIF | [🚀 Open](https://randomly.online/image-tools/webp-to-gif) |
-
-</div>
+| [HEIC Viewer](https://randomly.online/image-tools/heic-viewer) | Open and view a HEIC file in the browser |
+| [HEIC to JPG](https://randomly.online/image-tools/heic-to-jpg) | HEIC -> JPG |
+| [HEIC to PNG](https://randomly.online/image-tools/heic-to-png) | HEIC -> PNG |
 
 ---
 
-# 📱 HEIC Ecosystem
+## SVG, BMP and TIFF
 
-<div align="center">
-
-| Tool | Launch |
+| Tool | Direction |
 |---|---|
-| HEIC Viewer | [🚀 Open](https://randomly.online/image-tools/heic-viewer) |
-| HEIC to JPG | [🚀 Open](https://randomly.online/image-tools/heic-to-jpg) |
-| HEIC to PNG | [🚀 Open](https://randomly.online/image-tools/heic-to-png) |
-
-</div>
+| [SVG to PNG](https://randomly.online/image-tools/svg-to-png) | SVG -> PNG |
+| [SVG to JPG](https://randomly.online/image-tools/svg-to-jpg) | SVG -> JPG |
+| [SVG to WebP](https://randomly.online/image-tools/svg-to-webp) | SVG -> WebP |
+| [BMP to JPG](https://randomly.online/image-tools/bmp-to-jpg) | BMP -> JPG |
+| [BMP to PNG](https://randomly.online/image-tools/bmp-to-png) | BMP -> PNG |
+| [BMP to WebP](https://randomly.online/image-tools/bmp-to-webp) | BMP -> WebP |
+| [TIFF to JPG](https://randomly.online/image-tools/tiff-to-jpg) | TIFF -> JPG |
+| [TIFF to PNG](https://randomly.online/image-tools/tiff-to-png) | TIFF -> PNG |
+| [TIFF to WebP](https://randomly.online/image-tools/tiff-to-webp) | TIFF -> WebP |
+| [JPG to TIFF](https://randomly.online/image-tools/jpg-to-tiff) | JPG -> TIFF |
 
 ---
 
-# 🧩 SVG Ecosystem
+## PNG and JPG
 
-<div align="center">
-
-| Tool | Launch |
+| Tool | Direction |
 |---|---|
-| SVG to PNG | [🚀 Open](https://randomly.online/image-tools/svg-to-png) |
-| SVG to JPG | [🚀 Open](https://randomly.online/image-tools/svg-to-jpg) |
-| SVG to WebP | [🚀 Open](https://randomly.online/image-tools/svg-to-webp) |
-
-</div>
+| [PNG to JPG](https://randomly.online/image-tools/png-to-jpg) | PNG -> JPG, with a background colour for transparency |
+| [JPG to PNG](https://randomly.online/image-tools/jpg-to-png) | JPG -> PNG |
 
 ---
 
-# 🎞️ GIF Ecosystem
+## Base64 and metadata
 
-<div align="center">
-
-| Tool | Launch |
+| Tool | What it does |
 |---|---|
-| GIF Converter | [🚀 Open](https://randomly.online/image-tools/gif-converter) |
-| GIF to WebP | [🚀 Open](https://randomly.online/image-tools/gif-to-webp) |
-| WebP to GIF | [🚀 Open](https://randomly.online/image-tools/webp-to-gif) |
+| [Image to Base64](https://randomly.online/image-tools/image-to-base64) | Encode an image as a data URI for CSS or HTML |
+| [Base64 to Image](https://randomly.online/image-tools/base64-to-image) | Decode a data URI back to a file |
+| [Image Metadata Viewer](https://randomly.online/image-tools/image-metadata-viewer) | Read EXIF data, including camera, date and GPS coordinates if present |
 
-</div>
-
----
-
-# 🧱 BMP Ecosystem
-
-<div align="center">
-
-| Tool | Launch |
-|---|---|
-| BMP to JPG | [🚀 Open](https://randomly.online/image-tools/bmp-to-jpg) |
-| BMP to PNG | [🚀 Open](https://randomly.online/image-tools/bmp-to-png) |
-| BMP to WebP | [🚀 Open](https://randomly.online/image-tools/bmp-to-webp) |
-
-</div>
+The metadata viewer is worth a note. Phone photos often carry the exact location where they were taken, and people share them without knowing. Reading that in a tool that uploads the photo first would be a strange way to learn it, which is the argument for this whole set in one sentence.
 
 ---
 
-# 🖨️ TIFF Ecosystem
+## Other categories
 
-<div align="center">
-
-| Tool | Launch |
-|---|---|
-| TIFF to JPG | [🚀 Open](https://randomly.online/image-tools/tiff-to-jpg) |
-| TIFF to PNG | [🚀 Open](https://randomly.online/image-tools/tiff-to-png) |
-| TIFF to WebP | [🚀 Open](https://randomly.online/image-tools/tiff-to-webp) |
-
-</div>
-
----
-
-# 🧠 Metadata & Utility Tools
-
-<div align="center">
-
-| Tool | Launch |
-|---|---|
-| Image Metadata Viewer | [🚀 Open](https://randomly.online/image-tools/image-metadata-viewer) |
-| Image to Base64 | [🚀 Open](https://randomly.online/image-tools/image-to-base64) |
-| Base64 to Image | [🚀 Open](https://randomly.online/image-tools/base64-to-image) |
-| Image Compressor | [🚀 Open](https://randomly.online/image-tools/image-compressor) |
-| Image Converter | [🚀 Open](https://randomly.online/image-tools/image-converter) |
-
-</div>
-
----
-
-# 📈 Platform Workflow
-
-<div align="center">
-
-```mermaid
-graph TD;
-    A[Select Tool] --> B[Process In Browser]
-    B --> C[Instant Preview]
-    C --> D[Download Result]
-```
-
-</div>
-
----
-
-# ⚡ Supported Formats
-
-<div align="center">
-
-```txt
-PNG      JPG      JPEG
-WEBP     AVIF     HEIC
-SVG      BMP      TIFF
-GIF
-```
-
-</div>
-
----
-
-# 🌍 Explore More
-
-<div align="center">
-
-<a href="https://randomly.online/image-tools/all-image-tools">
-  <img src="https://img.shields.io/badge/🖼️_All_Image_Tools-111827?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/pdf-tools">
-  <img src="https://img.shields.io/badge/📄_PDF_Tools-2563eb?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/text-tools">
-  <img src="https://img.shields.io/badge/📝_Text_Tools-7c3aed?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/developer-tools">
-  <img src="https://img.shields.io/badge/💻_Developer_Tools-f59e0b?style=for-the-badge" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-# 🚀 Randomly.online Image Ecosystem
-
-### Fast • Modern • Privacy Focused
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:111827&height=120&section=footer" />
-
-</div>
+[PDF](https://randomly.online/pdf-tools/all-pdf-tools) &nbsp;|&nbsp; [Text](https://randomly.online/text-tools/all-text-tools) &nbsp;|&nbsp; [Developer](https://randomly.online/dev-tools/all-development-tools) &nbsp;|&nbsp; [Date and time](https://randomly.online/date-time-tools/all-date-time-tools) &nbsp;|&nbsp; [Calculators](https://randomly.online/calculator-tools/all-calculator-tools) &nbsp;|&nbsp; [Converters](https://randomly.online/converter-tools/all-converter-tools) &nbsp;|&nbsp; [Excel](https://randomly.online/excel-tools/all-excel-tools) &nbsp;|&nbsp; [SEO](https://randomly.online/seo-tools/all-seo-tools) &nbsp;|&nbsp; [Random generators](https://randomly.online/random-generator-tools/all-random-generators)

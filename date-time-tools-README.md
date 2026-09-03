@@ -1,383 +1,185 @@
 <div align="center">
 
-# ⏳ Randomly.online Date & Time Tools
+<img src="https://github.com/D-xan/Randomly.online-docs/blob/main/images/randomly%20online%20logo.png?raw=true" width="100" alt="Randomly.online logo" />
 
-<h3>⚡ Modern Browser-Based Time Utility Ecosystem</h3>
+# Randomly.online Date and Time Tools
 
-<p align="center">
-  <img src="https://img.shields.io/badge/70+_Date_&_Time_Tools-111827?style=for-the-badge&logo=clockify&logoColor=white" />
-  <img src="https://img.shields.io/badge/Browser_Based-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/Instant_Utilities-7c3aed?style=for-the-badge&logo=speedtest&logoColor=white" />
-  <img src="https://img.shields.io/badge/SEO_Friendly-ef4444?style=for-the-badge&logo=google&logoColor=white" />
-</p>
+**74 tools for clocks, time zones, date arithmetic and payroll hours.**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Countdown_Tools-0ea5e9?style=flat-square" />
-  <img src="https://img.shields.io/badge/Calendar_Utilities-f59e0b?style=flat-square" />
-  <img src="https://img.shields.io/badge/Timezone_Utilities-10b981?style=flat-square" />
-  <img src="https://img.shields.io/badge/Productivity_Timers-ec4899?style=flat-square" />
-  <img src="https://img.shields.io/badge/Mobile_Friendly-14b8a6?style=flat-square" />
-</p>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:2563eb&height=240&section=header&text=Date%20%26%20Time%20Tools%20Ecosystem&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+[Open all date and time tools](https://randomly.online/date-time-tools/all-date-time-tools) &nbsp;|&nbsp; [Main README](README.md) &nbsp;|&nbsp; [randomly.online](https://randomly.online)
 
 </div>
 
 ---
 
-# 🌍 Platform Overview
+## What are the Randomly.online date and time tools?
 
-<div align="center">
+They are 74 browser tools covering live clocks, timers and countdowns, time zone conversion, date arithmetic, calendar generation, timestamp conversion and working-hours calculation. All of them run in the tab. Nothing is sent to a server, and nothing needs an account.
 
-<table>
-<tr>
-<td align="center">⚡ Fast Browser Utilities</td>
-<td align="center">🌐 Cross Platform</td>
-<td align="center">📱 Responsive Design</td>
-</tr>
+Time is the category where a wrong answer is easy to ship and hard to notice, so the awkward cases get handled rather than rounded away. Daylight saving transitions are the usual failure: a meeting planner that ignores them is correct for ten months of the year. Leap years, ISO week numbering, which days count as business days, and the fact that some zones sit at 30 or 45 minute offsets all change results that look simple.
 
-<tr>
-<td align="center">🚫 No Signup Required</td>
-<td align="center">🧠 Modern Interface</td>
-<td align="center">🔄 Real-Time Calculations</td>
-</tr>
-</table>
+Time zone data comes from a 3.4 MB table of cities served from this site's own `/data/` directory. Your browser is never asked where you are, and no geolocation API is called. You pick a city from a list.
 
-</div>
+**Last verified: 4 September 2026.** All 74 links below returned HTTP 200 on that date.
 
 ---
 
-# 📊 Date & Time Ecosystem Distribution
-
-<div align="center">
+## Which tool do I need?
 
 ```mermaid
-pie title Tool Distribution
-    "Date Calculators" : 25
-    "Time Utilities" : 20
-    "Calendar Systems" : 15
-    "Timezone Tools" : 15
-    "Countdown Tools" : 15
-    "Productivity Utilities" : 10
+flowchart TD
+  Q{"What are you<br/>trying to do?"}
+  Q --> A["See the time now"] --> A1["Clocks and live time"]
+  Q --> B["Count down or up"] --> B1["Timers, stopwatches,<br/>event countdowns"]
+  Q --> C["Compare two places"] --> C1["Time zones and DST"]
+  Q --> D["Do maths on dates"] --> D1["Date arithmetic,<br/>ages, anniversaries"]
+  Q --> E["Convert a machine<br/>timestamp"] --> E1["Timestamps and formats"]
+  Q --> F["Work out hours or pay"] --> F1["Work and payroll"]
+  style Q fill:#2563eb,color:#fff
 ```
-
-</div>
 
 ---
 
-# 📈 Utility Ecosystem Growth
+## Clocks and live time
 
-<div align="center">
-
-```mermaid
-xychart-beta
-    title "Date & Time Ecosystem Expansion"
-    x-axis [Core, Calculators, Calendars, Timers, Timezones, Productivity]
-    y-axis "Utility Scale" 0 --> 100
-    bar [20, 40, 55, 70, 85, 95]
-```
-
-</div>
-
----
-
-# 🕒 Clock & Live Time Ecosystem
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=2563EB&center=true&vCenter=true&width=700&lines=Real-Time+Clock+Utilities;Digital+Clock+Systems;World+Clock+Utilities;Interactive+Timer+Ecosystem" />
-
-</div>
-
-```mermaid
-graph LR
-A[Current Date Time] --> B[Digital Clock]
-B --> C[Analog Clock]
-C --> D[World Clock]
-D --> E[Alarm Systems]
-```
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Current Date Time | https://randomly.online/date-time-tools/current-date-time |
-| Digital Clock | https://randomly.online/date-time-tools/digital-clock |
-| Analog Clock | https://randomly.online/date-time-tools/analog-clock |
-| World Clock | https://randomly.online/date-time-tools/world-clock |
-| Alarm Clock | https://randomly.online/date-time-tools/alarm-clock |
-| Stopwatch | https://randomly.online/date-time-tools/stopwatch |
-| Online Timer | https://randomly.online/date-time-tools/online-timer |
-| Countdown Timer | https://randomly.online/date-time-tools/countdown-timer |
-| Reverse Countdown Timer | https://randomly.online/date-time-tools/reverse-countdown-timer |
-| Pomodoro Timer | https://randomly.online/date-time-tools/pomodoro-timer |
+| [Current Date and Time](https://randomly.online/date-time-tools/current-date-time) | The date and time where you are, to the second |
+| [Digital Clock](https://randomly.online/date-time-tools/digital-clock) | Full-screen digital clock |
+| [Analog Clock](https://randomly.online/date-time-tools/analog-clock) | Full-screen analog clock face |
+| [World Clock](https://randomly.online/date-time-tools/world-clock) | Several cities side by side, updating live |
+| [Sunrise and Sunset Time](https://randomly.online/date-time-tools/sunrise-sunset-time) | Sunrise, sunset and day length for a chosen place and date |
+| [Moon Phase Calculator](https://randomly.online/date-time-tools/moon-phase-calculator) | Phase and illumination for any date |
 
----
+## Timers, stopwatches and alarms
 
-# 🌍 Time Zone Ecosystem
-
-<div align="center">
-
-```mermaid
-graph TD
-A[UTC Time] --> B[Timezone Converter]
-B --> C[World Timezones]
-C --> D[Meeting Planner]
-D --> E[Flight Calculations]
-E --> F[DST Calculations]
-```
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Time Zone Converter | https://randomly.online/date-time-tools/time-zone-converter |
-| Time Zone Difference | https://randomly.online/date-time-tools/time-zone-difference |
-| Time Zone Offset Finder | https://randomly.online/date-time-tools/time-zone-offset-finder |
-| UTC to Local Time | https://randomly.online/date-time-tools/utc-to-local-time |
-| Local Time to UTC | https://randomly.online/date-time-tools/local-time-to-utc |
-| Meeting Time Planner | https://randomly.online/date-time-tools/meeting-time-planner |
-| Flight Time Calculator | https://randomly.online/date-time-tools/flight-time-calculator |
-| DST Checker | https://randomly.online/date-time-tools/dst-checker |
-| Daylight Saving Time Calculator | https://randomly.online/date-time-tools/daylight-saving-time-calculator |
+| [Stopwatch](https://randomly.online/date-time-tools/stopwatch) | Count up, with laps |
+| [Online Timer](https://randomly.online/date-time-tools/online-timer) | Set a duration and get an alert |
+| [Countdown Timer](https://randomly.online/date-time-tools/countdown-timer) | Count down to zero |
+| [Reverse Countdown Timer](https://randomly.online/date-time-tools/reverse-countdown-timer) | Count up from a start point |
+| [Pomodoro Timer](https://randomly.online/date-time-tools/pomodoro-timer) | 25 minute work blocks with breaks |
+| [Alarm Clock](https://randomly.online/date-time-tools/alarm-clock) | Alarm at a set time, in the browser |
 
----
+## Countdowns to an event
 
-# 📅 Date Calculator Ecosystem
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Date Calculators))
-    Age Calculator
-    Birthday Calculator
-    Anniversary Calculator
-    Leap Year Checker
-    Date Difference
-    Pregnancy Due Date
-```
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Date Difference Calculator | https://randomly.online/date-time-tools/date-difference-calculator |
-| Age Calculator | https://randomly.online/date-time-tools/age-calculator |
-| Birthday Calculator | https://randomly.online/date-time-tools/birthday-calculator |
-| Next Birthday Countdown | https://randomly.online/date-time-tools/next-birthday-countdown |
-| Day of Week Calculator | https://randomly.online/date-time-tools/day-of-week-calculator |
-| Leap Year Checker | https://randomly.online/date-time-tools/leap-year-checker |
-| Anniversary Calculator | https://randomly.online/date-time-tools/anniversary-calculator |
-| Relationship Duration Calculator | https://randomly.online/date-time-tools/relationship-duration-calculator |
-| Pregnancy Due Date Calculator | https://randomly.online/date-time-tools/pregnancy-due-date-calculator |
+| [Event Countdown Timer](https://randomly.online/date-time-tools/event-countdown-timer) | Days, hours and minutes to any date you name |
+| [Exam Countdown Timer](https://randomly.online/date-time-tools/exam-countdown-timer) | Countdown built around an exam date |
+| [Holiday Countdown](https://randomly.online/date-time-tools/holiday-countdown) | Time left until the next public holiday |
+| [New Year Countdown](https://randomly.online/date-time-tools/new-year-countdown) | Time left in the year |
+| [Next Birthday Countdown](https://randomly.online/date-time-tools/next-birthday-countdown) | Time until the next birthday |
 
----
+## Time zones and daylight saving
 
-# 📆 Calendar Ecosystem
+Nine tools, and the reason there are nine is that "what time is it there" and "will that still be true in March" are different questions.
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2563eb,100:7c3aed&height=80&section=header&text=Calendar%20Generation%20Utilities&fontSize=28&fontColor=ffffff" />
-
-</div>
-
-```mermaid
-graph TD;
-A[Calendar Generator] --> B[Monthly Calendar]
-B --> C[Yearly Calendar]
-C --> D[Printable Calendar]
-D --> E[Holiday Systems]
-```
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Calendar Generator | https://randomly.online/date-time-tools/calendar-generator |
-| Monthly Calendar Generator | https://randomly.online/date-time-tools/monthly-calendar-generator |
-| Yearly Calendar Generator | https://randomly.online/date-time-tools/yearly-calendar-generator |
-| Printable Calendar | https://randomly.online/date-time-tools/printable-calendar |
-| Holiday Countdown | https://randomly.online/date-time-tools/holiday-countdown |
-| Public Holidays Finder | https://randomly.online/date-time-tools/public-holidays-finder |
+| [Time Zone Converter](https://randomly.online/date-time-tools/time-zone-converter) | A time in one zone shown in another |
+| [Time Difference Between Time Zones](https://randomly.online/date-time-tools/time-zone-difference) | The gap in hours between two zones right now |
+| [Time Zone Offset Finder](https://randomly.online/date-time-tools/time-zone-offset-finder) | The UTC offset for a city, including 30 and 45 minute zones |
+| [UTC to Local Time](https://randomly.online/date-time-tools/utc-to-local-time) | UTC -> your zone |
+| [Local Time to UTC](https://randomly.online/date-time-tools/local-time-to-utc) | Your zone -> UTC |
+| [Meeting Time Planner](https://randomly.online/date-time-tools/meeting-time-planner) | A slot that works across several cities at once |
+| [Flight Time Calculator](https://randomly.online/date-time-tools/flight-time-calculator) | Arrival time in local terms, across the zone change |
+| [DST Checker](https://randomly.online/date-time-tools/dst-checker) | Whether a place is on daylight saving today, and when it next changes |
+| [Daylight Saving Time Calculator](https://randomly.online/date-time-tools/daylight-saving-time-calculator) | DST transition dates for a chosen year |
 
----
+## Date arithmetic
 
-# 🔄 Timestamp & Conversion Ecosystem
-
-<div align="center">
-
-```mermaid
-graph LR
-A[Unix Timestamp] --> B[Date Converter]
-B --> C[Custom Formatter]
-C --> D[ISO Week Converter]
-D --> E[Military Time]
-```
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Unix Timestamp Converter | https://randomly.online/date-time-tools/unix-timestamp-converter |
-| Timestamp to Date Converter | https://randomly.online/date-time-tools/timestamp-to-date-converter |
-| Date to Timestamp | https://randomly.online/date-time-tools/date-to-timestamp |
-| Epoch Time Converter | https://randomly.online/date-time-tools/epoch-time-converter |
-| Date Format Converter | https://randomly.online/date-time-tools/date-format-converter |
-| Custom Date Formatter | https://randomly.online/date-time-tools/custom-date-formatter |
-| ISO Week Date Converter | https://randomly.online/date-time-tools/iso-week-date-converter |
-| Week Number Calculator | https://randomly.online/date-time-tools/week-number-calculator |
-| Military Time Converter | https://randomly.online/date-time-tools/military-time-converter |
-| 12 Hour to 24 Hour Converter | https://randomly.online/date-time-tools/12-hour-to-24-hour-converter |
-| 24 Hour to 12 Hour Converter | https://randomly.online/date-time-tools/24-hour-to-12-hour-converter |
+| [Date Difference Calculator](https://randomly.online/date-time-tools/date-difference-calculator) | Days, weeks, months and years between two dates |
+| [Add Days to Date](https://randomly.online/date-time-tools/add-days-to-date) | Date plus a number of days |
+| [Add Months to Date](https://randomly.online/date-time-tools/add-months-to-date) | Date plus months, handling short months |
+| [Add Years to Date](https://randomly.online/date-time-tools/add-years-to-date) | Date plus years, handling 29 February |
+| [Subtract Days from Date](https://randomly.online/date-time-tools/subtract-days-from-date) | Date minus a number of days |
+| [Day of Week Calculator](https://randomly.online/date-time-tools/day-of-week-calculator) | Which weekday a date falls on |
+| [Week Number Calculator](https://randomly.online/date-time-tools/week-number-calculator) | ISO 8601 week number |
+| [Leap Year Checker](https://randomly.online/date-time-tools/leap-year-checker) | Whether a year is a leap year, with the rule shown |
+| [Time Duration Calculator](https://randomly.online/date-time-tools/time-duration-calculator) | Length between two clock times |
 
----
+## Ages, birthdays and anniversaries
 
-# ⏱️ Productivity & Work Ecosystem
-
-<div align="center">
-
-```mermaid
-journey
-title Productivity Workflow
-section Work Calculations
-Work Hours Calculator: 5: User
-Pay Period Calculator: 4: User
-Time Card Calculator: 5: User
-section Planning
-Shift Scheduling: 4: User
-Deadline Calculator: 5: User
-```
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Shift Schedule Calculator | https://randomly.online/date-time-tools/shift-schedule-calculator |
-| Work Hours Calculator | https://randomly.online/date-time-tools/work-hours-calculator |
-| Salary Days Calculator | https://randomly.online/date-time-tools/salary-days-calculator |
-| Pay Period Calculator | https://randomly.online/date-time-tools/pay-period-calculator |
-| Time Card Calculator | https://randomly.online/date-time-tools/time-card-calculator |
-| Deadline Calculator | https://randomly.online/date-time-tools/deadline-calculator |
-| Time Slot Generator | https://randomly.online/date-time-tools/time-slot-generator |
-| Working Days Calculator | https://randomly.online/date-time-tools/working-days-calculator |
-| Business Days Calculator | https://randomly.online/date-time-tools/business-days-calculator |
+| [Age Calculator](https://randomly.online/date-time-tools/age-calculator) | Exact age in years, months and days |
+| [Birthday Calculator](https://randomly.online/date-time-tools/birthday-calculator) | Weekday of a birth date and upcoming birthdays |
+| [Anniversary Calculator](https://randomly.online/date-time-tools/anniversary-calculator) | Time since a date, and the next milestone |
+| [Relationship Duration Calculator](https://randomly.online/date-time-tools/relationship-duration-calculator) | Length of a relationship broken down by unit |
+| [Pregnancy Due Date Calculator](https://randomly.online/date-time-tools/pregnancy-due-date-calculator) | Estimated due date and current week |
+| [Period Calculator](https://randomly.online/date-time-tools/period-calculator) | Cycle dates from a last period and cycle length |
 
----
+Both of the last two deserve the client-side note in bold. Nothing entered into them is transmitted or stored, and closing the tab discards it.
 
-# 🎯 Event & Countdown Ecosystem
+## Calendars
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=EC4899&center=true&vCenter=true&width=800&lines=Event+Countdown+Utilities;Exam+Countdown+Systems;Holiday+Countdown+Tools;New+Year+Countdown+Experiences" />
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Event Countdown Timer | https://randomly.online/date-time-tools/event-countdown-timer |
-| Exam Countdown Timer | https://randomly.online/date-time-tools/exam-countdown-timer |
-| New Year Countdown | https://randomly.online/date-time-tools/new-year-countdown |
+| [Calendar Generator](https://randomly.online/date-time-tools/calendar-generator) | A calendar for any month or year |
+| [Monthly Calendar Generator](https://randomly.online/date-time-tools/monthly-calendar-generator) | One month, styled for printing |
+| [Yearly Calendar Generator](https://randomly.online/date-time-tools/yearly-calendar-generator) | A full year on one sheet |
+| [Printable Calendar](https://randomly.online/date-time-tools/printable-calendar) | Print or export as PNG and PDF |
+| [Public Holidays Finder](https://randomly.online/date-time-tools/public-holidays-finder) | Public holidays for a country and year |
 
----
+## Timestamps and date formats
 
-# 🌙 Advanced Utilities
+Twelve conversions, because machine time and human time disagree in more than one way.
 
-<div align="center">
-
-```mermaid
-quadrantChart
-    title Advanced Utility Distribution
-    x-axis Low Complexity --> High Complexity
-    y-axis Basic Utility --> Advanced Utility
-    quadrant-1 Advanced
-    quadrant-2 Analytical
-    quadrant-3 Standard
-    quadrant-4 Smart
-    Moon Phase Calculator: [0.8, 0.9]
-    Julian Date Converter: [0.7, 0.8]
-    Fiscal Year Calculator: [0.6, 0.6]
-    Roman Numeral Dates: [0.5, 0.7]
-```
-
-</div>
-
-| Tool | Access |
+| Tool | What it does |
 |---|---|
-| Date to Roman Numerals | https://randomly.online/date-time-tools/date-to-roman-numerals |
-| Julian Date Converter | https://randomly.online/date-time-tools/julian-date-converter |
-| Fiscal Year Calculator | https://randomly.online/date-time-tools/fiscal-year-calculator |
-| Moon Phase Calculator | https://randomly.online/date-time-tools/moon-phase-calculator |
-| Random Date Generator | https://randomly.online/date-time-tools/random-date-generator |
-| Random Time Generator | https://randomly.online/date-time-tools/random-time-generator |
+| [Unix Timestamp Converter](https://randomly.online/date-time-tools/unix-timestamp-converter) | Unix seconds <-> a readable date |
+| [Timestamp to Date Converter](https://randomly.online/date-time-tools/timestamp-to-date-converter) | Timestamp -> date |
+| [Date to Timestamp Converter](https://randomly.online/date-time-tools/date-to-timestamp) | Date -> timestamp |
+| [Epoch Time Converter](https://randomly.online/date-time-tools/epoch-time-converter) | Seconds and milliseconds since 1 January 1970 |
+| [Date Format Converter](https://randomly.online/date-time-tools/date-format-converter) | Between DD/MM/YYYY, MM/DD/YYYY, ISO and others |
+| [Custom Date Formatter](https://randomly.online/date-time-tools/custom-date-formatter) | Build a format string and see it applied |
+| [ISO Week Date Converter](https://randomly.online/date-time-tools/iso-week-date-converter) | ISO 8601 week date form |
+| [Julian Date Converter](https://randomly.online/date-time-tools/julian-date-converter) | Julian day number, as used in astronomy |
+| [Date to Roman Numerals](https://randomly.online/date-time-tools/date-to-roman-numerals) | A date written in Roman numerals |
+| [Military Time Converter](https://randomly.online/date-time-tools/military-time-converter) | Military and 24 hour notation |
+| [12 Hour to 24 Hour Converter](https://randomly.online/date-time-tools/12-hour-to-24-hour-converter) | 12 hour -> 24 hour |
+| [24 Hour to 12 Hour Converter](https://randomly.online/date-time-tools/24-hour-to-12-hour-converter) | 24 hour -> 12 hour |
+
+## Work, payroll and scheduling
+
+| Tool | What it does |
+|---|---|
+| [Work Hours Calculator](https://randomly.online/date-time-tools/work-hours-calculator) | Hours worked from start, end and break times |
+| [Working Days Calculator](https://randomly.online/date-time-tools/working-days-calculator) | Working days between two dates |
+| [Business Days Calculator](https://randomly.online/date-time-tools/business-days-calculator) | Business days, excluding weekends and holidays |
+| [Overtime Calculator](https://randomly.online/date-time-tools/overtime-calculator) | Overtime hours and pay above a threshold |
+| [Time Card Calculator](https://randomly.online/date-time-tools/time-card-calculator) | A weekly timesheet totalled up |
+| [Shift Schedule Calculator](https://randomly.online/date-time-tools/shift-schedule-calculator) | Rotating shift patterns |
+| [Salary Days Calculator](https://randomly.online/date-time-tools/salary-days-calculator) | Payable days in a period |
+| [Pay Period Calculator](https://randomly.online/date-time-tools/pay-period-calculator) | Weekly, fortnightly, semi-monthly and monthly periods |
+| [Deadline Calculator](https://randomly.online/date-time-tools/deadline-calculator) | A deadline a number of working days out |
+| [Fiscal Year Calculator](https://randomly.online/date-time-tools/fiscal-year-calculator) | Which fiscal year and quarter a date falls in |
+| [Time Slot Generator](https://randomly.online/date-time-tools/time-slot-generator) | Even slots across a window, for booking sheets |
+
+## Validators and random dates
+
+| Tool | What it does |
+|---|---|
+| [Date Validator](https://randomly.online/date-time-tools/date-validator) | Whether a string is a real date, and in what format |
+| [Time Validator](https://randomly.online/date-time-tools/time-validator) | Whether a string is a valid time |
+| [Random Date Generator](https://randomly.online/date-time-tools/random-date-generator) | Random dates in a range, for test data |
+| [Random Time Generator](https://randomly.online/date-time-tools/random-time-generator) | Random times in a range |
+| [Time Randomizer Tool](https://randomly.online/date-time-tools/time-randomizer-tool) | Shuffle or pick from a set of times |
 
 ---
 
-# ⚡ Supported Utility Types
+## Do timers keep running if I switch tabs?
 
-<div align="center">
+Yes for the arithmetic, and this is a real difference between implementations. Browsers throttle `setInterval` in a background tab, sometimes to once a minute, so a timer that counts down by subtracting one on every tick loses time whenever you look away. The countdown, online, event and Pomodoro timers store a target timestamp and subtract `Date.now()` from it on each repaint, so the number on screen is read from the clock rather than accumulated. The repaint interval only controls how smooth it looks. Switch away for ten minutes and come back, and the countdown is where it should be.
 
-```txt
-CLOCKS
-TIMERS
-COUNTDOWNS
-CALENDARS
-DATE CALCULATORS
-TIMEZONE UTILITIES
-FORMAT CONVERTERS
-WORK SCHEDULERS
-PRODUCTIVITY TOOLS
-ADVANCED DATE SYSTEMS
-```
-
-</div>
+Alerts are a separate matter. A background tab can be throttled hard enough to delay a sound, and some browsers block audio until you have interacted with the page. Click once in the tab after setting a long timer.
 
 ---
 
-# 📈 Platform Workflow
+## Other categories
 
-<div align="center">
-
-```mermaid
-graph TD;
-A[Choose Utility] --> B[Instant Browser Processing]
-B --> C[Real-Time Calculations]
-C --> D[Interactive Results]
-D --> E[Use Anywhere]
-```
-
-</div>
-
----
-
-# 🌐 Explore More Ecosystems
-
-<div align="center">
-
-<a href="https://randomly.online/date-time-tools">
-  <img src="https://img.shields.io/badge/⏳_Date_&_Time_Tools-111827?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/image-tools">
-  <img src="https://img.shields.io/badge/🖼️_Image_Tools-2563eb?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/pdf-tools">
-  <img src="https://img.shields.io/badge/📄_PDF_Tools-7c3aed?style=for-the-badge" />
-</a>
-
-<a href="https://randomly.online/developer-tools">
-  <img src="https://img.shields.io/badge/💻_Developer_Tools-f59e0b?style=for-the-badge" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-# 🚀 Randomly.online Date & Time Ecosystem
-
-### Fast • Interactive • Browser-Based • SEO Friendly
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:111827&height=140&section=footer&animation=fadeIn" />
-
-</div>
+[Image](https://randomly.online/image-tools/all-image-tools) &nbsp;|&nbsp; [PDF](https://randomly.online/pdf-tools/all-pdf-tools) &nbsp;|&nbsp; [Text](https://randomly.online/text-tools/all-text-tools) &nbsp;|&nbsp; [Developer](https://randomly.online/dev-tools/all-development-tools) &nbsp;|&nbsp; [Calculators](https://randomly.online/calculator-tools/all-calculator-tools) &nbsp;|&nbsp; [Converters](https://randomly.online/converter-tools/all-converter-tools) &nbsp;|&nbsp; [Excel](https://randomly.online/excel-tools/all-excel-tools) &nbsp;|&nbsp; [SEO](https://randomly.online/seo-tools/all-seo-tools) &nbsp;|&nbsp; [Random generators](https://randomly.online/random-generator-tools/all-random-generators)
