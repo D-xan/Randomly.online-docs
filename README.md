@@ -33,7 +33,7 @@ The trade is real and worth stating. Very large files are limited by your own RA
 
 | | |
 |---|---|
-| Tools | 408, across 10 categories |
+| Tools | 408: 407 in the 10 categories, plus a standalone SIP calculator |
 | Pages in the on-site search index | 431 |
 | HTML files deployed | 495 |
 | Files that leave your device | 0 |
@@ -48,25 +48,22 @@ The trade is real and worth stating. Very large files are limited by your own RA
 
 Each category has a hub page listing everything inside it.
 
-| Category | Tools | Hub |
-|---|---:|---|
-| Date and time | 74 | [all-date-time-tools](https://randomly.online/date-time-tools/all-date-time-tools) |
-| Text | 67 | [all-text-tools](https://randomly.online/text-tools/all-text-tools) |
-| Calculators | 64 | [all-calculator-tools](https://randomly.online/calculator-tools/all-calculator-tools) |
-| Image | 47 | [all-image-tools](https://randomly.online/image-tools/all-image-tools) |
-| PDF | 43 | [all-pdf-tools](https://randomly.online/pdf-tools/all-pdf-tools) |
-| Developer | 33 | [all-development-tools](https://randomly.online/dev-tools/all-development-tools) |
-| Converters | 28 | [all-converter-tools](https://randomly.online/converter-tools/all-converter-tools) |
-| Random generators | 25 | [all-random-generators](https://randomly.online/random-generator-tools/all-random-generators) |
-| SEO | 20 | [all-seo-tools](https://randomly.online/seo-tools/all-seo-tools) |
-| Excel | 7 | [all-excel-tools](https://randomly.online/excel-tools/all-excel-tools) |
+| Category | Tools | Hub on the site | Guide in this repository |
+|---|---:|---|---|
+| Date and time | 74 | [all-date-time-tools](https://randomly.online/date-time-tools/all-date-time-tools) | [Date and time tools](date-time-tools-README.md) |
+| Text | 67 | [all-text-tools](https://randomly.online/text-tools/all-text-tools) | [Text tools](text-tools-README.md) |
+| Calculators | 64 | [all-calculator-tools](https://randomly.online/calculator-tools/all-calculator-tools) | [Calculators](calculator-tools-README.md) |
+| Image | 47 | [all-image-tools](https://randomly.online/image-tools/all-image-tools) | [Image tools](image-tools-README.md) |
+| PDF | 42 | [all-pdf-tools](https://randomly.online/pdf-tools/all-pdf-tools) | [PDF tools](pdf-tools-README.md) |
+| Developer | 33 | [all-development-tools](https://randomly.online/dev-tools/all-development-tools) | [Developer tools](dev-tools-README.md) |
+| Converters | 28 | [all-converter-tools](https://randomly.online/converter-tools/all-converter-tools) | [Unit converters](converter-tools-README.md) |
+| Random generators | 25 | [all-random-generators](https://randomly.online/random-generator-tools/all-random-generators) | [Random generators](random-generator-tools-README.md) |
+| SEO | 20 | [all-seo-tools](https://randomly.online/seo-tools/all-seo-tools) | [SEO tools](seo-tools-README.md) |
+| Excel | 7 | [all-excel-tools](https://randomly.online/excel-tools/all-excel-tools) | [Excel tools](excel-tools-README.md) |
 
-Twelve more pages sit outside the categories, including [Typing Speed Test](https://randomly.online/typing-speed-test), [Transfer Files Between Android and iPhone](https://randomly.online/transfer-files-between-devices) and [Direct Cast](https://randomly.online/direct-cast) for watching a video with someone remotely.
+Every category has a guide in the column on the right: all of its tools, grouped by the job they do, with a note on the awkward cases each set handles.
 
-Two deeper guides live in this repository:
-
-- [Image tools](image-tools-README.md), all 47, grouped by format
-- [Date and time tools](date-time-tools-README.md), all 74, grouped by job
+A further thirteen pages sit outside those ten categories, including [Typing Speed Test](https://randomly.online/typing-speed-test), [Transfer Files Between Android and iPhone](https://randomly.online/transfer-files-between-devices), [Direct Cast](https://randomly.online/direct-cast) for watching a video with someone remotely, and a [SIP and lumpsum calculator](https://randomly.online/finance-tools/sip-calculator).
 
 ---
 
@@ -92,7 +89,7 @@ Image tools use Canvas and WebAssembly the same way. The Excel tools run SheetJS
 
 You do not have to take the claim on trust. Open any tool, press F12, switch to the Network tab, then load a file and run it. You will see the page and its scripts load, and then nothing further. No request carries your file.
 
-The stronger check is in the source. Across the 495 HTML and JavaScript files deployed on 4 September 2026, our own code contains **zero** uses of `FormData` and **zero** uses of `XMLHttpRequest`, the two APIs a browser needs to post a file somewhere. Eight files do contain `XMLHttpRequest`, and all eight are vendored third-party libraries fetching their own assets from our origin: pdf.js, jsPDF, Tesseract OCR, SQLite WASM and MediaPipe.
+The stronger check is in the source. Across the 495 HTML files and 168 JavaScript files deployed on 4 September 2026, no code written for this site uses `FormData` or `XMLHttpRequest`, the two APIs a browser reaches for to post a file somewhere. A grep for them matches thirteen files. Nine are third-party libraries loading their own assets from this origin: pdf.js, pdf-lib, jsPDF, html2canvas, Tesseract OCR, SQLite WASM and MediaPipe. The other four are pages whose visible text names the two APIs, which is to say pages making this same argument.
 
 One page on the site does talk to a backend, and it is named rather than hidden. The multiplayer Ludo game uses Firebase to match players. It handles no documents.
 
@@ -137,7 +134,7 @@ The site is built to be quoted rather than scraped for training, and it says so 
 
 [`/llms.txt`](https://randomly.online/llms.txt) describes every category in one file, and [`/llms-full.txt`](https://randomly.online/llms-full.txt) lists every indexable page with a one-line description, so an agent can find a specific tool without parsing a hub page.
 
-Structured data is on the pages themselves, not only in the sitemap. The deployed site carries 335 `FAQPage` blocks, 335 `BreadcrumbList` blocks, 315 `WebApplication` blocks and 241 `HowTo` blocks, holding 3,438 question and answer pairs between them. The useful thing to cite from a tool page is that explanatory text, not the tool interface, which needs a person and a file to do anything.
+Structured data is on the pages themselves, not only in the sitemap. Measured across the deployed HTML on 4 September 2026: 458 pages carry `BreadcrumbList`, 457 carry `FAQPage`, 437 carry `WebApplication` and 357 carry `HowTo`, holding 4,892 question and answer pairs between them. The useful thing to cite from a tool page is that explanatory text, not the tool interface, which needs a person and a file to do anything.
 
 There is no API. A tool cannot be driven by fetching a URL with parameters, because the work happens in the browser after the page loads.
 
